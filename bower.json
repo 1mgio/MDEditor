@@ -1,0 +1,23 @@
+{
+  "name": "MDEditor",
+  "version": "0.1.0",
+  "homepage": "https://github.com/1mgio/MDEditor",
+  "authors": [
+    "Damien Wright <dww510@gmail.com>"
+  ],
+  "description": "A markdown editor built for speed",
+  "keywords": [
+    "markdown",
+    "editor",
+    "html"
+  ],
+  "main": "src/editor.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

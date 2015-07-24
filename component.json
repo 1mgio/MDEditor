@@ -1,0 +1,10 @@
+{
+  "name": "editor",
+  "version": "0.1.0",
+  "repo": "1mgio/editor",
+  "description": "A markdown editor built for speed",
+  "keywords": ["markdown", "editor", "html"],
+  "scripts": ["src/editor.js"],
+  "main": "src/editor.js",
+  "license": "MIT"
+}

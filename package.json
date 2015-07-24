@@ -1,0 +1,38 @@
+{
+  "name": "MDEditor",
+  "description": "A markdown editor built for speed",
+  "author": "Damien Wright",
+  "version": "0.1.0",
+  "main": "./src/editor.js",
+  "preferGlobal": true,
+  "repository": "git://github.com/1mgio/MDEditor.git",
+  "homepage": "https://github.com/1mgio/MDEditor",
+  "bugs": {
+    "url": "http://github.com/1mgio/MDEditor/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "markdown",
+    "editor",
+    "html"
+  ],
+  "tags": [
+    "markdown",
+    "editor",
+    "html"
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-util": "*",
+    "gulp-concat": "*",
+    "gulp-uglify": "*",
+    "gulp-rename": "*",
+    "gulp-filesize": "*",
+    "gulp-changed": "*",
+    "gulp-watch": "*"
+  },
+  "scripts": {
+    "test": "node test",
+    "bench": "node test --bench"
+  }
+}
