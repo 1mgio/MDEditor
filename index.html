@@ -5,9 +5,7 @@
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="vendor/codemirror/lib/codemirror.css">
-    <link rel="stylesheet" href="vendor/codemirror/theme/paper.css">
-    <link rel="stylesheet" href="src/editor.css">
+    <link rel="stylesheet" href="editor.min.css">
 </head>
 <body>
 
@@ -15,22 +13,22 @@
         <tr>
              <td style="vertical-align: middle;">
                 <textarea class="text-left hidden" id="editor" placeholder="Content here ....">
-# Intro
+# MDEditor
 
-Go ahead, play around with the editor! Be sure to check out **bold** and *italic* styling, or even [links](http://google.com). You can type the Markdown syntax, use the toolbar, or use shortcuts like `cmd-b` or `ctrl-b`.
+A drop-in JavaScript textarea replacement for writing **beautiful** and **understandable** markdown
 
-## Lists
-Unordered lists can be started using the toolbar or by typing `* `, `- `, or `+ `. Ordered lists can be started by typing `1. `.
+## Features
 
-#### Unordered
-* Lists are a piece of cake
-* They even auto continue as you type
-* A double enter will end them
-* Tabs and shift-tabs work too
-
-#### Ordered
-1. Numbered lists...
-2. ...work too!
+- Auto grow
+- Auto continue lists
+- Autosave your text
+- Mobile Friendly
+- Line highlight
+- Fully customizable
+- Themeable
+- Spell Checker
+- Keyboard shortcuts
+- So much more
 
                 </textarea>
             </td>
@@ -73,7 +71,7 @@ Unordered lists can be started using the toolbar or by typing `* `, `- `, or `+ 
             element: document.getElementById('editor'),
             theme: 'paper',
             lineNumbers: true,
-            spellChecker: true,
+            spellChecker: false,
         });
         editor.render();
 

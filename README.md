@@ -2,7 +2,7 @@
 A drop-in JavaScript textarea replacement for writing beautiful and understandable markdown. The WYSIWYG-esque editor allows users to modify the markdown with toolbar buttons and shortcuts. WYSIWYG editors that produce HTML are often complex and buggy. Markdown solves this problem in many ways, but is less visually clear while editing. MDEditor has been designed to bridge this gap for non-technical users who are less familiar with or just learning markdown syntax.
 
 
-[![Preview](http://i.imgur.com/b9hFHFT.png)]()
+[![Preview](http://1mg.io/assets/images/mdeditor.png)]()
 
 
 And then load MDEditor on the first textarea on a page
